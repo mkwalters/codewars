@@ -61,6 +61,9 @@ def done_or_not(board)
     end
   end
 
+
+
+  #square region checker
   square_regions.each do |region| 
     if region.sort != solution
       return "Try again!"
